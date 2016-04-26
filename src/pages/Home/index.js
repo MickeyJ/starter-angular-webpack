@@ -10,6 +10,6 @@ const configHomePage = () =>{
 
     }
   }
-}
+};
 
 export default configHomePage;

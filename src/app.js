@@ -8,6 +8,8 @@ angular.module('app', ['ui.router'])
   .config(
     ($stateProvider, $urlRouterProvider, $locationProvider) =>{
       
+      require('./style/main.scss');
+      
       $stateProvider
         .state('/', configHomePage() )
         .state('/about', configAboutPage() );
